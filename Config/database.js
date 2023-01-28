@@ -6,7 +6,7 @@ mongoose.connect(url, {
     useUnifiedTopology: true
 });
 
- const db = mongoose.connection;
- module.exports={
+const db = mongoose.connection;
+module.exports = {
     db
- }
+}
