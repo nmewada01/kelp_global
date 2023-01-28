@@ -6,7 +6,6 @@ const accountSchema = new mongoose.Schema({
 });
 // Create Account model
 const accountModel = mongoose.model('banking', accountSchema);
-
 module.exports = {
     accountModel
 }
